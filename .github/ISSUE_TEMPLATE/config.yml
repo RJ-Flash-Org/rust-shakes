@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security contact
+    url: mailto:security@rustshakes.org
+    about: Please report vulnerabilities privately.
+  - name: Q&A / Ideas
+    url: https://github.com/RJ-Flash-Org/rust-shakes/discussions
+    about: Ask questions, share ideas, and get help here.
