@@ -88,6 +88,7 @@ Apache-2.0. See [LICENSE](LICENSE).
 
 ### Quick Links
 
+- Website: [rustshakes.org](https://rustshakes.org)  
 - Vision: [docs/VISION.md](docs/VISION.md)  
 - Architecture Overview: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)  
 - Libraries map: [docs/LIBRARIES.md](docs/LIBRARIES.md)  
