@@ -1,3 +1,4 @@
 # CODEOWNERS
 *       @RJ-Flash-Org/core-maintainers
 /docs/  @RJ-Flash-Org/docs
+.github/ @RJ-Flash-Org/core-maintainers
