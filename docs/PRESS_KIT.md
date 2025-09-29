@@ -8,8 +8,9 @@
 ## Brand Assets
 
 - Logos (placeholders): `docs/assets/brand/`
-  - `logo-dark.svg`, `logo-light.svg`
-  - Add PNG exports as needed (`logo-dark.png`, `logo-light.png`)
+  - `rustshakes-logo-light.svg`, `rustshakes-logo-dark.svg`
+  - Add PNG exports as needed (`rustshakes-logo-light.png`, `rustshakes-logo-dark.png`)
+- Favicon: `docs/assets/brand/favicon.svg`
 - Screenshots: `docs/assets/brand/screenshots/` (README badges, roadmap, governance)
 
 ## Press Contact
