@@ -9,14 +9,14 @@ jobs:
   lint-docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Markdown lint (mdl via docker)
         run: docker run --rm -v $PWD:/work tmknom/mdl:latest mdl -r ~MD013 ~MD033 /work
 
   meta-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Ensure key files exist
         run: |
           test -f README.md
