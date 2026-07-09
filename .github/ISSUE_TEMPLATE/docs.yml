@@ -1,0 +1,9 @@
+name: Docs/Recipe Request
+description: Request documentation improvement or a new cookbook recipe.
+labels: [docs]
+body:
+  - type: textarea
+    attributes: { label: What is unclear or missing? }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Desired example/recipe }

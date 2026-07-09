@@ -2,6 +2,7 @@
 /target
 **/target
 **/*.rs.bak
+**/*.rs.bk
 Cargo.lock
 
 # IDE
@@ -21,6 +22,9 @@ Cargo.lock
 # Logs / env
 *.log
 .env*
+
+# Node/docs
+node_modules/
 
 # Session artifacts / temp scripts
 cursor-chat.txt

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: If you use Rust-Shakes, please cite as below.
+title: Rust-Shakes — a batteries-included Rust stack for numerics, data, and ML
+authors:
+  - family-names: Rust-Shakes
+    given-names: Contributors
+version: 0.1.0
+license: Apache-2.0
+repository-code: https://github.com/RJ-Flash-Org/rust-shakes
