@@ -1,12 +1,51 @@
-# Rust
-/target/
-/**/target/
+# Rust / Cargo
+/target
+**/target
+**/*.rs.bak
 **/*.rs.bk
 Cargo.lock
 
-# Node/docs
-node_modules/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 .DS_Store
 
-# Misc
+# Build artifacts
+*.rlib
+*.rmeta
+*.d
+*.exe
+*.pdb
+
+# Logs / env
 *.log
+.env*
+
+# Node/docs
+node_modules/
+
+# Session artifacts / temp scripts
+cursor-chat.txt
+*.zip
+finalize-children.ps1
+mvp-executable-stubs.ps1
+mvp-inject.ps1
+option-b-create-and-run.ps1
+option-b-rj-fallback.ps1
+protect-foundation.ps1
+
+# Nested local git histories (preserved as .git-nested while monorepo tracks files)
+*.git-nested
+
+# Hyperc build/runtime artifacts (huge custom cargo home + bench targets)
+hyperc/target*/
+hyperc/tools/noinc-cargo-home/
+hyperc/daemon.out
+hyperc/daemon.err
+hyperc/daemon.pid
+hyperc/hyperc.bench.json
+hyperc/*.ps1
+hyperc/*.bak.*
+hyperc/**/*.bak.*

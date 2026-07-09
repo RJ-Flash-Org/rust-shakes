@@ -1,0 +1,36 @@
+[workspace]
+members = [
+  "crates/cargo-hyper",
+  "crates/hyperc-daemon",
+  "crates/hyperc-client",
+  "crates/hyperc-cache",
+  "crates/hyperc-prof",
+  "crates/hyperc-bench",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.1"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["rust-shakes contributors"]
+homepage = "https://github.com/RJ-Flash-Org"
+repository = "https://github.com/RJ-Flash-Org/hyperc"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+all = "warn"
+
+[profile.dev]
+incremental = false
+
+[profile.release]
+incremental = false
+
+[profile.test]
+incremental = false
+
+[profile.bench]
+incremental = false

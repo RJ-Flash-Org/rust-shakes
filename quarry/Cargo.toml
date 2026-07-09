@@ -1,0 +1,14 @@
+[package]
+name = "quarry"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Connectors and IO for rust-shakes (DBs, files, cloud, Arrow bridges)."
+
+[dependencies]
+foundry = { workspace = true }
+rax = { workspace = true }
+
+[dev-dependencies]
