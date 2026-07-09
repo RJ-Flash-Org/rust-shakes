@@ -44,3 +44,4 @@ hyperc/daemon.pid
 hyperc/hyperc.bench.json
 hyperc/*.ps1
 hyperc/*.bak.*
+hyperc/**/*.bak.*
