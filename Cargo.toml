@@ -1,0 +1,31 @@
+[workspace]
+members = [
+    "foundry",
+    "rax",
+    "aurora-df",
+    "optima",
+    "forge",
+    "ember",
+    "vista",
+    "flash",
+    "quarry",
+    "relay",
+    "scribe",
+    "cookbook",
+    "kits",
+]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+authors = ["rust-shakes contributors"]
+repository = "https://github.com/RJ-Flash-Org/rust-shakes"
+
+[workspace.dependencies]
+foundry = { path = "foundry" }
+rax = { path = "rax" }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"

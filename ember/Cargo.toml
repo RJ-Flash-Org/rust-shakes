@@ -1,0 +1,15 @@
+[package]
+name = "ember"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Deep learning for rust-shakes (PyTorch-style training ergonomics)."
+
+[dependencies]
+foundry = { workspace = true }
+rax = { workspace = true }
+optima = { path = "../optima" }
+
+[dev-dependencies]

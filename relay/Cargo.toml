@@ -1,0 +1,14 @@
+[package]
+name = "relay"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Python interop for rust-shakes (PyO3 wheels, Arrow zero-copy, pandas adapters)."
+
+[dependencies]
+foundry = { workspace = true }
+rax = { workspace = true }
+
+[dev-dependencies]

@@ -1,0 +1,16 @@
+name: Bug Report
+description: Report a bug in a Rust-Shakes project.
+labels: [bug, needs-triage]
+body:
+  - type: input
+    attributes: { label: Affected repo/version }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: What happened? }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Expected behavior }
+  - type: textarea
+    attributes: { label: Repro steps (minimal) }
+  - type: textarea
+    attributes: { label: Logs/stacktrace }

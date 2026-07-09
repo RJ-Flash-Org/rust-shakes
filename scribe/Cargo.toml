@@ -1,0 +1,13 @@
+[package]
+name = "scribe"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Documentation tools, examples, and notebook-style runners for rust-shakes."
+
+[dependencies]
+foundry = { workspace = true }
+
+[dev-dependencies]

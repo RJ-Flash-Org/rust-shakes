@@ -1,0 +1,29 @@
+name: RFC: Proposal
+description: Propose a significant change (API, architecture, policy).
+title: 'RFC: <short title>'
+labels: [rfc, needs-triage]
+body:
+  - type: textarea
+    attributes:
+      label: Summary
+      description: One paragraph summary of the problem and the proposed solution.
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: Motivation & Goals
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: Design Overview
+  - type: textarea
+    attributes:
+      label: Alternatives Considered
+  - type: textarea
+    attributes:
+      label: Drawbacks & Risks
+  - type: textarea
+    attributes:
+      label: Adoption & Migration
+  - type: textarea
+    attributes:
+      label: Test/Bench Strategy

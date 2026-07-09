@@ -1,0 +1,14 @@
+[package]
+name = "optima"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Autodiff + optimizers for rust-shakes (SciPy-style core)."
+
+[dependencies]
+foundry = { workspace = true }
+rax = { workspace = true }
+
+[dev-dependencies]

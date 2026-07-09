@@ -1,0 +1,13 @@
+[package]
+name = "flash"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Web APIs and model serving for rust-shakes (FastAPI-style DX)."
+
+[dependencies]
+foundry = { workspace = true }
+
+[dev-dependencies]
